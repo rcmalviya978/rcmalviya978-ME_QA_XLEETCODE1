@@ -1,0 +1,153 @@
+[1709805889.115][INFO]: Starting ChromeDriver 122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960}) on port 17162
+[1709805889.115][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1709805889.541][INFO]: [2fe78b25dc565852271730498cd7a20c] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1709805889.541][INFO]: Browser search. Trying... C:\Users\abc\.cache\selenium\chromedriver\win64\122.0.6261.94\chrome.exe
+[1709805889.541][INFO]: Browser search. Trying... C:\Users\abc\.cache\selenium\chromedriver\win64\122.0.6261.94\chrome.exe
+[1709805889.541][INFO]: Browser search. Trying... C:\Users\abc\.cache\selenium\chromedriver\win64\122.0.6261.94\chromium.exe
+[1709805889.546][INFO]: Browser search. Trying... C:\Users\abc\AppData\Local\Google\Chrome\Application\chrome.exe
+[1709805889.546][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1709805889.546][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1709805889.547][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1709805889.550][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1709805889.556][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1709805889.556][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1709805889.557][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\WINDOWS\SystemTemp\scoped_dir18932_911216232" data:,
+[1709805890.313][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1709805890.682][INFO]: [2fe78b25dc565852271730498cd7a20c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "122.0.6261.96",
+      "chrome": {
+         "chromedriverVersion": "122.0.6261.94 (880dbf29479c6152d5e4f08dfd3a96b30f919e56-refs/branch-heads/6261@{#960})",
+         "userDataDir": "C:\\WINDOWS\\SystemTemp\\scoped_dir18932_911216232"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:41394"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2fe78b25dc565852271730498cd7a20c"
+}
+[1709805891.136][INFO]: [2fe78b25dc565852271730498cd7a20c] COMMAND MaximizeWindow {
+}
+[1709805891.136][INFO]: Waiting for pending navigations...
+[1709805891.137][INFO]: Done waiting for pending navigations. Status: ok
+[1709805891.290][INFO]: Waiting for pending navigations...
+[1709805891.291][INFO]: Done waiting for pending navigations. Status: ok
+[1709805891.291][INFO]: [2fe78b25dc565852271730498cd7a20c] RESPONSE MaximizeWindow {
+   "height": 705,
+   "width": 1296,
+   "x": -8,
+   "y": -8
+}
+[1709805891.302][INFO]: [2fe78b25dc565852271730498cd7a20c] COMMAND SetTimeouts {
+   "implicit": 30000
+}
+[1709805891.302][INFO]: [2fe78b25dc565852271730498cd7a20c] RESPONSE SetTimeouts
+[1709805891.309][INFO]: [2fe78b25dc565852271730498cd7a20c] COMMAND Navigate {
+   "url": "https://leetcode.com/"
+}
+[1709805891.309][INFO]: Waiting for pending navigations...
+[1709805891.310][INFO]: Done waiting for pending navigations. Status: ok
+[1709805892.716][INFO]: Waiting for pending navigations...
+[1709805897.369][INFO]: Done waiting for pending navigations. Status: target frame detached
+[1709805897.399][INFO]: [2fe78b25dc565852271730498cd7a20c] RESPONSE Navigate
+[1709805897.538][INFO]: [2fe78b25dc565852271730498cd7a20c] COMMAND GetUrl {
+}
+[1709805897.538][INFO]: [2fe78b25dc565852271730498cd7a20c] RESPONSE GetUrl ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=122.0.6261.96)
